@@ -31,10 +31,56 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md fila.json
+          git add README.md fila.json publicados.json feed.xml
           git diff --cached --quiet || git commit -m "feat: adiciona $NOME (publicação diária)"
           git pull --rebase origin main
           git push
+
+      - name: Criar rascunho no blog da APedê (opcional — via secrets)
+        if: steps.pub.outputs.nome != ''
+        env:
+          WP_URL: ${{ secrets.WP_URL }}
+          WP_USER: ${{ secrets.WP_USER }}
+          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+          NOME: ${{ steps.pub.outputs.nome }}
+          URL_RECURSO: ${{ steps.pub.outputs.url }}
+          DESCRICAO: ${{ steps.pub.outputs.descricao }}
+        run: |
+          python - <<'PY'
+          import base64, json, os, sys, urllib.request
+
+          wp_url = (os.environ.get("WP_URL") or "").rstrip("/")
+          user = os.environ.get("WP_USER") or ""
+          senha = os.environ.get("WP_APP_PASSWORD") or ""
+          if not (wp_url and user and senha):
+              print("WordPress não configurado (secrets WP_URL, WP_USER, WP_APP_PASSWORD) — pulando. Veja INTEGRACOES.md")
+              sys.exit(0)
+
+          nome = os.environ["NOME"]
+          url = os.environ["URL_RECURSO"]
+          desc = os.environ["DESCRICAO"]
+          post = {
+              "title": f"Recurso de educação midiática: {nome}",
+              "status": "draft",
+              "content": (
+                  f'<p><strong><a href="{url}">{nome}</a></strong> — {desc}.</p>'
+                  '<p>Publicado originalmente na minha lista curada '
+                  '<a href="https://github.com/paulapeclat/awesome-educacao-midiatica">'
+                  'Awesome Educação Midiática</a>, que cresce um recurso por dia.</p>'
+              ),
+          }
+          req = urllib.request.Request(
+              f"{wp_url}/wp-json/wp/v2/posts",
+              data=json.dumps(post).encode(),
+              headers={
+                  "Content-Type": "application/json",
+                  "Authorization": "Basic " + base64.b64encode(f"{user}:{senha}".encode()).decode(),
+              },
+          )
+          with urllib.request.urlopen(req, timeout=30) as r:
+              rascunho = json.loads(r.read())
+          print(f"Rascunho criado no blog: {rascunho.get('link', '(sem link)')} — revise e publique!")
+          PY
 
       - name: Avisar quando a fila esvaziar
         if: steps.pub.outputs.vazia == '1'

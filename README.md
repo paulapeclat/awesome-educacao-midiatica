@@ -97,6 +97,8 @@ Mantida por [Paula Peclat](https://github.com/paulapeclat) — pedagoga, pesquis
 
 Esta lista cresce **um recurso por dia**, às 9h (Brasília): as próximas entradas ficam na [`fila.json`](fila.json) e um robô ([`scripts/publicar.py`](scripts/publicar.py)) publica a primeira da fila. Transparência é parte da educação midiática — o mecanismo inteiro está neste repositório. 😉
 
+📡 **Acompanhe:** cada publicação sai no [feed RSS](https://raw.githubusercontent.com/paulapeclat/awesome-educacao-midiatica/main/feed.xml) — dá para receber por e-mail, leitor de RSS, n8n ou direto no seu blog WordPress. Guia completo em [INTEGRACOES.md](INTEGRACOES.md).
+
 ## Como contribuir
 
 1. Abra uma [issue](../../issues) com o recurso + 1 linha explicando por que ele merece entrar.

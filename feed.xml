@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Awesome Educação Midiática — recurso do dia</title>
+    <link>https://github.com/paulapeclat/awesome-educacao-midiatica</link>
+    <atom:link href="https://raw.githubusercontent.com/paulapeclat/awesome-educacao-midiatica/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Um recurso de educação midiática por dia, curado por Paula Peclat.</description>
+    <language>pt-br</language>
+    <lastBuildDate>Sat, 04 Jul 2026 14:02:45 +0000</lastBuildDate>
+    <item>
+      <title>Instituto Vero</title>
+      <link>https://vero.org.br</link>
+      <guid isPermaLink="false">https://vero.org.br#2026-07-04</guid>
+      <pubDate>Sat, 04 Jul 2026 12:00:00 +0000</pubDate>
+      <category>Organizações e redes</category>
+      <description>Educação midiática e cidadania digital, com foco em jovens e criadores de conteúdo.</description>
+    </item>
+    <item>
+      <title>Cartilha de Segurança para Internet (CERT.br)</title>
+      <link>https://cartilha.cert.br</link>
+      <guid isPermaLink="false">https://cartilha.cert.br#2026-07-04</guid>
+      <pubDate>Sat, 04 Jul 2026 12:00:00 +0000</pubDate>
+      <category>Materiais e recursos abertos</category>
+      <description>Material aberto e didático sobre segurança digital, mantido pelo CERT.br.</description>
+    </item>
+  </channel>
+</rss>

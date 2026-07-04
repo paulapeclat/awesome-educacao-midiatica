@@ -1,0 +1,16 @@
+[
+  {
+    "nome": "Cartilha de Segurança para Internet (CERT.br)",
+    "url": "https://cartilha.cert.br",
+    "descricao": "Material aberto e didático sobre segurança digital, mantido pelo CERT.br",
+    "secao": "Materiais e recursos abertos",
+    "data": "2026-07-04T12:00:00"
+  },
+  {
+    "nome": "Instituto Vero",
+    "url": "https://vero.org.br",
+    "descricao": "Educação midiática e cidadania digital, com foco em jovens e criadores de conteúdo",
+    "secao": "Organizações e redes",
+    "data": "2026-07-04T12:00:00"
+  }
+]
