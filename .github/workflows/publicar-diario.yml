@@ -1,0 +1,49 @@
+name: Publicação diária da fila
+
+on:
+  schedule:
+    - cron: "0 12 * * *"   # todo dia, 12:00 UTC (~09:00 horário de Brasília)
+  workflow_dispatch: {}    # permite publicar manualmente pela aba Actions
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Publicar próximo recurso da fila
+        id: pub
+        run: python scripts/publicar.py
+
+      - name: Comitar publicação (se houver)
+        env:
+          NOME: ${{ steps.pub.outputs.nome }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md fila.json
+          git diff --cached --quiet || git commit -m "feat: adiciona $NOME (publicação diária)"
+          git pull --rebase origin main
+          git push
+
+      - name: Avisar quando a fila esvaziar
+        if: steps.pub.outputs.vazia == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          ABERTAS=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "Fila de publicação vazia in:title" --json number --jq 'length')
+          if [ "$ABERTAS" = "0" ]; then
+            gh issue create --repo "$GITHUB_REPOSITORY" \
+              --title "📭 Fila de publicação vazia" \
+              --body "A fila de publicação diária acabou (ou está no último item). Adicione novos recursos em \`fila.json\` — formato: \`{ \"secao\": \"...\", \"nome\": \"...\", \"url\": \"https://...\", \"descricao\": \"...\" }\`. O robô volta a publicar sozinho no dia seguinte. 🌱"
+          fi

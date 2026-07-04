@@ -16,6 +16,7 @@ Mantida por [Paula Peclat](https://github.com/paulapeclat) — pedagoga, pesquis
 - [Pesquisas e dados](#pesquisas-e-dados)
 - [Formação de professores](#formação-de-professores)
 - [Ferramentas para sala de aula](#ferramentas-para-sala-de-aula)
+- [Materiais e recursos abertos](#materiais-e-recursos-abertos)
 - [Periódicos acadêmicos](#periódicos-acadêmicos)
 - [Internacional](#internacional)
 
@@ -47,6 +48,7 @@ Mantida por [Paula Peclat](https://github.com/paulapeclat) — pedagoga, pesquis
 - [CGI.br — Comitê Gestor da Internet no Brasil](https://cgi.br) — Governança da internet no Brasil; publicações e princípios.
 - [Common Sense Education](https://www.commonsense.org/education) — Currículos de cidadania digital e avaliações de mídia para famílias e escolas (inglês).
 - [NAMLE — National Association for Media Literacy Education](https://namle.net) — Rede norte-americana de educação midiática (inglês).
+- [Instituto Vero](https://vero.org.br) — Educação midiática e cidadania digital, com foco em jovens e criadores de conteúdo.
 
 ## Pesquisas e dados
 
@@ -74,6 +76,10 @@ Mantida por [Paula Peclat](https://github.com/paulapeclat) — pedagoga, pesquis
 - [Teachable Machine](https://teachablemachine.withgoogle.com) — Treinamento de modelos de IA sem código; ótima porta de entrada para discutir vieses e dados.
 - [Canva para Educação](https://www.canva.com/pt_br/educacao/) — Produção de mídia (design, apresentações, vídeo) com contas educacionais gratuitas.
 
+## Materiais e recursos abertos
+
+- [Cartilha de Segurança para Internet (CERT.br)](https://cartilha.cert.br) — Material aberto e didático sobre segurança digital, mantido pelo CERT.br.
+
 ## Periódicos acadêmicos
 
 - [Comunicação & Educação (ECA-USP)](https://www.revistas.usp.br/comueduc) — Periódico brasileiro de referência na interface comunicação/educação.
@@ -86,6 +92,10 @@ Mantida por [Paula Peclat](https://github.com/paulapeclat) — pedagoga, pesquis
 - [5Rights Foundation](https://5rightsfoundation.com) — Direitos digitais de crianças e adolescentes; incidência em design e regulação.
 
 ---
+
+## 📬 Publicação diária
+
+Esta lista cresce **um recurso por dia**, às 9h (Brasília): as próximas entradas ficam na [`fila.json`](fila.json) e um robô ([`scripts/publicar.py`](scripts/publicar.py)) publica a primeira da fila. Transparência é parte da educação midiática — o mecanismo inteiro está neste repositório. 😉
 
 ## Como contribuir
 

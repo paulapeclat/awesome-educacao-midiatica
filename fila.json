@@ -1,0 +1,62 @@
+[
+  {
+    "secao": "Organizações e redes",
+    "nome": "Redes Cordiais",
+    "url": "https://redescordiais.com.br",
+    "descricao": "Formação de influenciadores e jovens para o combate à desinformação e o diálogo online"
+  },
+  {
+    "secao": "Organizações e redes",
+    "nome": "Lupa Educação",
+    "url": "https://lupa.uol.com.br/educacao",
+    "descricao": "Braço educativo da Agência Lupa: oficinas e cursos de checagem de fatos para escolas"
+  },
+  {
+    "secao": "Organizações e redes",
+    "nome": "Aos Fatos",
+    "url": "https://aosfatos.org",
+    "descricao": "Agência de checagem de fatos com projetos de letramento informacional"
+  },
+  {
+    "secao": "Materiais e recursos abertos",
+    "nome": "InternetSegura.br (NIC.br)",
+    "url": "https://internetsegura.br",
+    "descricao": "Portal do NIC.br com guias de uso seguro da internet para crianças, famílias e escolas"
+  },
+  {
+    "secao": "Materiais e recursos abertos",
+    "nome": "EduCapes",
+    "url": "https://educapes.capes.gov.br",
+    "descricao": "Repositório de recursos educacionais abertos mantido pela CAPES"
+  },
+  {
+    "secao": "Materiais e recursos abertos",
+    "nome": "Plataforma MEC RED",
+    "url": "https://plataformaintegrada.mec.gov.br",
+    "descricao": "Plataforma do MEC de recursos educacionais digitais para professores"
+  },
+  {
+    "secao": "Materiais e recursos abertos",
+    "nome": "Data Detox Kit (Tactical Tech)",
+    "url": "https://datadetoxkit.org",
+    "descricao": "Guia para hábitos digitais mais saudáveis — privacidade, bem-estar e desinformação — com versão em português"
+  },
+  {
+    "secao": "Internacional",
+    "nome": "Media Education Lab",
+    "url": "https://mediaeducationlab.com",
+    "descricao": "Laboratório de Renee Hobbs (EUA) com materiais e pesquisa em educação midiática (inglês)"
+  },
+  {
+    "secao": "Internacional",
+    "nome": "MediaSmarts",
+    "url": "https://mediasmarts.ca",
+    "descricao": "Centro canadense de literacia digital e midiática, com currículos por faixa etária (inglês/francês)"
+  },
+  {
+    "secao": "Internacional",
+    "nome": "Common Sense Media",
+    "url": "https://www.commonsensemedia.org",
+    "descricao": "Resenhas e guias de mídia para famílias, organizados por idade (inglês)"
+  }
+]
