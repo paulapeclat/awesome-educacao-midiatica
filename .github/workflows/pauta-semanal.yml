@@ -1,0 +1,34 @@
+name: Pauta semanal de conteúdo
+
+on:
+  schedule:
+    - cron: "0 11 * * 1"   # toda segunda, 11:00 UTC (~08:00 horário de Brasília)
+  workflow_dispatch: {}    # permite gerar a pauta manualmente pela aba Actions
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  pauta:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Gerar pauta da semana
+        run: python scripts/pauta.py > pauta.md && cat pauta.md
+
+      - name: Abrir issue com a pauta
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          SEMANA=$(date -u +'%d/%m/%Y')
+          gh issue create --repo "$GITHUB_REPOSITORY" \
+            --title "📅 Pauta da semana — $SEMANA" \
+            --body-file pauta.md
