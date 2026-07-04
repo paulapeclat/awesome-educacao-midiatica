@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Se este material foi útil no seu trabalho ou pesquisa, cite-o assim:"
+title: "Awesome Educação Midiática — lista curada de recursos em português"
+authors:
+  - family-names: Peclat
+    given-names: Paula
+    orcid: "https://orcid.org/0009-0008-6535-7090"
+type: dataset
+version: 1.0.0
+date-released: 2026-07-04
+repository-code: "https://github.com/paulapeclat/awesome-educacao-midiatica"
+license: CC0-1.0
+keywords:
+  - educacao-midiatica
+  - media-literacy
+  - curadoria
+  - awesome-list
+abstract: >-
+  Lista curada de recursos de educação midiática em português: legislação (PNED, lei 14.533/2023), pesquisas (TIC Kids Online), referenciais teóricos e materiais abertos para educadores e pesquisadores.
