@@ -49,6 +49,7 @@ Mantida por [Paula Peclat](https://github.com/paulapeclat) — pedagoga, pesquis
 - [Common Sense Education](https://www.commonsense.org/education) — Currículos de cidadania digital e avaliações de mídia para famílias e escolas (inglês).
 - [NAMLE — National Association for Media Literacy Education](https://namle.net) — Rede norte-americana de educação midiática (inglês).
 - [Instituto Vero](https://vero.org.br) — Educação midiática e cidadania digital, com foco em jovens e criadores de conteúdo.
+- [Redes Cordiais](https://redescordiais.com.br) — Formação de influenciadores e jovens para o combate à desinformação e o diálogo online.
 
 ## Pesquisas e dados
 
