@@ -50,6 +50,7 @@ Mantida por [Paula Peclat](https://github.com/paulapeclat) — pedagoga, pesquis
 - [NAMLE — National Association for Media Literacy Education](https://namle.net) — Rede norte-americana de educação midiática (inglês).
 - [Instituto Vero](https://vero.org.br) — Educação midiática e cidadania digital, com foco em jovens e criadores de conteúdo.
 - [Redes Cordiais](https://redescordiais.com.br) — Formação de influenciadores e jovens para o combate à desinformação e o diálogo online.
+- [Lupa Educação](https://lupa.uol.com.br/educacao) — Braço educativo da Agência Lupa: oficinas e cursos de checagem de fatos para escolas.
 
 ## Pesquisas e dados
 
