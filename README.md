@@ -51,6 +51,7 @@ Mantida por [Paula Peclat](https://github.com/paulapeclat) — pedagoga, pesquis
 - [Instituto Vero](https://vero.org.br) — Educação midiática e cidadania digital, com foco em jovens e criadores de conteúdo.
 - [Redes Cordiais](https://redescordiais.com.br) — Formação de influenciadores e jovens para o combate à desinformação e o diálogo online.
 - [Lupa Educação](https://lupa.uol.com.br/educacao) — Braço educativo da Agência Lupa: oficinas e cursos de checagem de fatos para escolas.
+- [Aos Fatos](https://aosfatos.org) — Agência de checagem de fatos com projetos de letramento informacional.
 
 ## Pesquisas e dados
 
