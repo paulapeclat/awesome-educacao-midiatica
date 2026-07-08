@@ -83,6 +83,7 @@ Mantida por [Paula Peclat](https://github.com/paulapeclat) — pedagoga, pesquis
 
 - [Cartilha de Segurança para Internet (CERT.br)](https://cartilha.cert.br) — Material aberto e didático sobre segurança digital, mantido pelo CERT.br.
 - [InternetSegura.br (NIC.br)](https://internetsegura.br) — Portal do NIC.br com guias de uso seguro da internet para crianças, famílias e escolas.
+- [EduCapes](https://educapes.capes.gov.br) — Repositório de recursos educacionais abertos mantido pela CAPES.
 
 ## Periódicos acadêmicos
 

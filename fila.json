@@ -1,12 +1,6 @@
 [
   {
     "secao": "Materiais e recursos abertos",
-    "nome": "EduCapes",
-    "url": "https://educapes.capes.gov.br",
-    "descricao": "Repositório de recursos educacionais abertos mantido pela CAPES"
-  },
-  {
-    "secao": "Materiais e recursos abertos",
     "nome": "Plataforma MEC RED",
     "url": "https://plataformaintegrada.mec.gov.br",
     "descricao": "Plataforma do MEC de recursos educacionais digitais para professores"
