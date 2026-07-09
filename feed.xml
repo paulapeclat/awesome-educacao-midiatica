@@ -6,7 +6,15 @@
     <atom:link href="https://raw.githubusercontent.com/paulapeclat/awesome-educacao-midiatica/main/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Um recurso de educação midiática por dia, curado por Paula Peclat.</description>
     <language>pt-br</language>
-    <lastBuildDate>Wed, 08 Jul 2026 13:41:15 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 14:32:56 +0000</lastBuildDate>
+    <item>
+      <title>Plataforma MEC RED</title>
+      <link>https://plataformaintegrada.mec.gov.br</link>
+      <guid isPermaLink="false">https://plataformaintegrada.mec.gov.br#2026-07-09</guid>
+      <pubDate>Thu, 09 Jul 2026 12:00:00 +0000</pubDate>
+      <category>Materiais e recursos abertos</category>
+      <description>Plataforma do MEC de recursos educacionais digitais para professores.</description>
+    </item>
     <item>
       <title>EduCapes</title>
       <link>https://educapes.capes.gov.br</link>

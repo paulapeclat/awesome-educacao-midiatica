@@ -47,5 +47,12 @@
     "descricao": "Repositório de recursos educacionais abertos mantido pela CAPES",
     "secao": "Materiais e recursos abertos",
     "data": "2026-07-08T12:00:00"
+  },
+  {
+    "nome": "Plataforma MEC RED",
+    "url": "https://plataformaintegrada.mec.gov.br",
+    "descricao": "Plataforma do MEC de recursos educacionais digitais para professores",
+    "secao": "Materiais e recursos abertos",
+    "data": "2026-07-09T12:00:00"
   }
 ]
