@@ -85,6 +85,7 @@ Mantida por [Paula Peclat](https://github.com/paulapeclat) — pedagoga, pesquis
 - [InternetSegura.br (NIC.br)](https://internetsegura.br) — Portal do NIC.br com guias de uso seguro da internet para crianças, famílias e escolas.
 - [EduCapes](https://educapes.capes.gov.br) — Repositório de recursos educacionais abertos mantido pela CAPES.
 - [Plataforma MEC RED](https://plataformaintegrada.mec.gov.br) — Plataforma do MEC de recursos educacionais digitais para professores.
+- [Data Detox Kit (Tactical Tech)](https://datadetoxkit.org) — Guia para hábitos digitais mais saudáveis — privacidade, bem-estar e desinformação — com versão em português.
 
 ## Periódicos acadêmicos
 
