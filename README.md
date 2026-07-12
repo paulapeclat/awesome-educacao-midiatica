@@ -98,6 +98,7 @@ Mantida por [Paula Peclat](https://github.com/paulapeclat) — pedagoga, pesquis
 - [EU Kids Online](https://www.lse.ac.uk/media-and-communications/research/research-projects/eu-kids-online) — Rede europeia de pesquisa sobre crianças e internet.
 - [5Rights Foundation](https://5rightsfoundation.com) — Direitos digitais de crianças e adolescentes; incidência em design e regulação.
 - [Media Education Lab](https://mediaeducationlab.com) — Laboratório de Renee Hobbs (EUA) com materiais e pesquisa em educação midiática (inglês).
+- [MediaSmarts](https://mediasmarts.ca) — Centro canadense de literacia digital e midiática, com currículos por faixa etária (inglês/francês).
 
 ---
 

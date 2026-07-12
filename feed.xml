@@ -6,7 +6,15 @@
     <atom:link href="https://raw.githubusercontent.com/paulapeclat/awesome-educacao-midiatica/main/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Um recurso de educação midiática por dia, curado por Paula Peclat.</description>
     <language>pt-br</language>
-    <lastBuildDate>Sat, 11 Jul 2026 12:55:57 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 12:56:44 +0000</lastBuildDate>
+    <item>
+      <title>MediaSmarts</title>
+      <link>https://mediasmarts.ca</link>
+      <guid isPermaLink="false">https://mediasmarts.ca#2026-07-12</guid>
+      <pubDate>Sun, 12 Jul 2026 12:00:00 +0000</pubDate>
+      <category>Internacional</category>
+      <description>Centro canadense de literacia digital e midiática, com currículos por faixa etária (inglês/francês).</description>
+    </item>
     <item>
       <title>Media Education Lab</title>
       <link>https://mediaeducationlab.com</link>
