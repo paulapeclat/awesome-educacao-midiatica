@@ -99,6 +99,7 @@ Mantida por [Paula Peclat](https://github.com/paulapeclat) — pedagoga, pesquis
 - [5Rights Foundation](https://5rightsfoundation.com) — Direitos digitais de crianças e adolescentes; incidência em design e regulação.
 - [Media Education Lab](https://mediaeducationlab.com) — Laboratório de Renee Hobbs (EUA) com materiais e pesquisa em educação midiática (inglês).
 - [MediaSmarts](https://mediasmarts.ca) — Centro canadense de literacia digital e midiática, com currículos por faixa etária (inglês/francês).
+- [Common Sense Media](https://www.commonsensemedia.org) — Resenhas e guias de mídia para famílias, organizados por idade (inglês).
 
 ---
 

@@ -75,5 +75,12 @@
     "descricao": "Centro canadense de literacia digital e midiática, com currículos por faixa etária (inglês/francês)",
     "secao": "Internacional",
     "data": "2026-07-12T12:00:00"
+  },
+  {
+    "nome": "Common Sense Media",
+    "url": "https://www.commonsensemedia.org",
+    "descricao": "Resenhas e guias de mídia para famílias, organizados por idade (inglês)",
+    "secao": "Internacional",
+    "data": "2026-07-13T12:00:00"
   }
 ]
