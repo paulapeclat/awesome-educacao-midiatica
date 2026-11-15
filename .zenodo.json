@@ -1,0 +1,28 @@
+{
+  "title": "Awesome Educação Midiática: lista curada de recursos em português",
+  "upload_type": "dataset",
+  "description": "<p>Lista curada de recursos de educação midiática em português, com marcos legais brasileiros (PNED, Lei 14.533/2023), pesquisas, referenciais teóricos, organizações, ferramentas e materiais abertos para educadoras, educadores e pesquisadoras.</p>",
+  "creators": [
+    {
+      "name": "Peclat, Paula",
+      "affiliation": "Educação Tecnológica Paula Peclat",
+      "orcid": "0009-0008-6535-7090"
+    }
+  ],
+  "license": "cc0-1.0",
+  "language": "por",
+  "keywords": [
+    "educação midiática",
+    "media literacy",
+    "curadoria",
+    "políticas públicas",
+    "infância"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/paulapeclat/awesome-educacao-midiatica",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
