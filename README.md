@@ -1,5 +1,7 @@
 # Awesome Educação Midiática 📚🇧🇷
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24238332.svg)](https://doi.org/10.5281/zenodo.24238332)
+
 > Lista curada de recursos sobre **educação midiática** em português — políticas públicas, teoria, organizações, ferramentas e prática de sala de aula.
 
 Mantida por [Paula Peclat](https://github.com/paulapeclat) — pedagoga, pesquisadora em educação midiática (PPGEduc/UFRRJ) e fundadora da [APedê Digital](https://paulapeclat.com.br).
